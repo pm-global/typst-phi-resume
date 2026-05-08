@@ -11,11 +11,10 @@ Golden Ratio closed form, calculated on compile:
 ![https://github.com/pm-global/typst-phi-resume](https://github.com/pm-global/typst-phi-resume/blob/main/resume.png)
 
 ## requirements
-1. install typst (2 options):
+1. typst (2 options):
 - if you have brew: ```$ brew install typst ```
 - or, download from typst: [Go to typst downloads](https://typst.app/open-source/#download) 
-
-2. download font: [Text Gyre Termes from GUST.org](https://www.gust.org.pl/projects/e-foundry/tex-gyre/termes/tg_termes-otf-2_609-31_03_2026.zip)
+2. Text Gyre Termes font: [Download Text Gyre Termes from GUST.org](https://www.gust.org.pl/projects/e-foundry/tex-gyre/termes/tg_termes-otf-2_609-31_03_2026.zip)
 
 ## how-to
 Use the template:
