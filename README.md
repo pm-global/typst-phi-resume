@@ -32,3 +32,5 @@ Change the font:
 - change the font line
   ```(font: "TeX Gyre Termes", size: body-size)```
 - ```label-size``` may need to be adjusted, it was based on default font measurements
+
+Assisted by Claude Opus 4.7
