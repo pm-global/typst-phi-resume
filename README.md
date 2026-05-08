@@ -8,6 +8,8 @@ Two parameters drive the entire document:
 Golden Ratio closed form, calculated on compile:
 - ```ratio = (1 + calc.sqrt(5)) / 2```
 
+![https://github.com/pm-global/typst-phi-resume](https://github.com/pm-global/typst-phi-resume/blob/main/resume.png)
+
 ## requirements
 1. typst (2 options):
 - ```$ brew install typst ```
