@@ -223,6 +223,7 @@
 // =====================================================================
 #new-section[Skills & Interests]
 
+// Pro Tip: keep these lines short enough so they don't wrap
 #skills-block(
     ("Languages", "Creole, Jambalaya, French Mongolianese"),
     ("Frameworks", "NodeJS, Timber"),
