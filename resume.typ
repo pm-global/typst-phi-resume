@@ -41,6 +41,11 @@
 // First derived value:
 //   - line-height: vertical rhythm atom; controls all line and block spacing
 
+// USAGE
+// 1. fill in your info, use "" for fields you don't need
+// 2. (optional) adjust body-size to fit text on the page better
+// 3. run `typst compile <your-doc-name>.typ
+
 // POP CULTURE REFERENCES (in order)
 // Jackdaws love my big sphinx of quartz (pangram)
 // The Rifleman's Creed, Army of Darkness, Mallrats, Monty Python and the Holy Grail, Enter the Dragon
@@ -138,13 +143,14 @@
 }
 
 // ===== Minor Entry =====
-// "Role @ Org" + dates, no secondary line.
+// "Role Org" + dates, no secondary line.
+// use "" to blank org if you don't need it
 #let minor-entry(role, org, dates, body: none) = {
     row(
         grid(
             columns: (1fr, auto),
             align: (left+horizon, right+horizon),
-            [*#role* @ #org], dates,
+            [*#role* #org], dates,
         ),
         body: body,
     )
@@ -236,7 +242,7 @@
 #new-section[Community Service]
 
 #minor-entry(
-    "Bored Member", "Non-Profit for Cats", "2024 - Present",
+    "Bored Member", "@ Non-Profit for Cats", "2024 - Present",
     body: bullets(
         [Biscuit baker],
         [Catnip shaker],
@@ -244,7 +250,7 @@
 )
 
 #minor-entry(
-    "Volunteer", "Hands Across The Universe", "1994 - 1995",
+    "Volunteer", "@ Hands Across The Universe", "1994 - 1995",
     body: bullets(
         [Organized vendors for yearly planetary alignment events],
         [Logistical support for dwarf planets],
